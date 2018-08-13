@@ -1,6 +1,6 @@
 package be.intecbrussel.generics;
 
-public class Duo <T> {
+public class Duo <T> { // fazladan bir type daha eklenebilir ornegin <T,U>
 
 	private T first;
 	private T second;
