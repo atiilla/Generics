@@ -1,38 +1,38 @@
 package be.intecbrussel.generics;
 
-public class Duo {
+public class Duo <T> {
 
-	private Object first;
-	private Object second;
+	private T first;
+	private T second;
 
 	public Duo() {
 		super();
 	}
 
-	public Duo(Object first, Object second) {
+	public Duo(T first, T second) {
 		super();
 		this.first = first;
 		this.second = second;
 	}
 
-	public Object getFirst() {
+	public T getFirst() {
 		return first;
 	}
 
-	public void setFirst(Object first) {
+	public void setFirst(T first) {
 		this.first = first;
 	}
 
-	public Object getSecond() {
+	public T getSecond() {
 		return second;
 	}
 
-	public void setSecond(Object second) {
+	public void setSecond(T second) {
 		this.second = second;
 	}
 	
 	public void swap() {
-		Object temp = first;
+		T temp = first;
 		first =  second;
 		second = temp;
 	}
